@@ -15,6 +15,6 @@ source ./venv/bin/activate
 
 pip install flask
 
-pyhton web.py
+python web.py
 
 After that you'll get an http link. Copy it and open it in the browser. Every time you refresh it, it will give you new groups.
