@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <title>UEFA Champions League</title>
+            <link rel="stylesheet"
+            type="text/css"
+            href="static/css/style1.css">
+        <style>
+            .page-bg {
+    background: url(static/images/download.jpeg);
+  -webkit-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+                background-repeat: no-repeat;
+                background-size: cover;
+}
+        </style>
+    </head>
+    <body>
+    <div class="page-bg"></div>
+    <!--<div id="foo" style="max-width: 10%;-->
+    <!--max-height: 10%;" ></div>-->
+    <script type="text/javascript" src="{{
+  url_for('static', filename='js/practice.js') }}">
+        var img = new Image();
+        img.src = "static/images/"+groups[l][j].id+".png";
+        var src = document.getElementById("x");
+        img.onload = function() {
+        src.appendChild(img)
+        };
+    </script>
+    <div><img id="x" style="max-height: 20px; max-width: 20px"></div>
+
+
+<!--<p><img src="static/images/0.png"></p>-->
+
+    </body>
+</html>
