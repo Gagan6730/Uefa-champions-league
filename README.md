@@ -1,7 +1,7 @@
 # Uefa-champions-league
 
 
-Command Line:
+#Command Line:
 Install python and virtualenv
 >pip install virtualenv
 Then go to the directory
