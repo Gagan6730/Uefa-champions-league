@@ -5,6 +5,8 @@ Install python and virtualenv
 
 pip install virtualenv
 
+cd Uefa-champions-league
+
 git clone https://github.com/Gagan6730/Uefa-champions-league.git
 
 vistualenv -p (location of your python interpreter-> /usr/bin/python2.7) ./venv
