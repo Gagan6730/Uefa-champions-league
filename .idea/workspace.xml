@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9db2244-1060-4cf7-9de7-5573f8278001" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/static/js/practice.js" afterPath="$PROJECT_DIR$/static/js/practice.js" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-    </list>
+    <list default="true" id="c9db2244-1060-4cf7-9de7-5573f8278001" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +34,8 @@
       <file leaf-file-name="practice.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/js/practice.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3292">
-              <caret line="446" column="0" lean-forward="true" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="0" />
+            <state relative-caret-position="367">
+              <caret line="251" column="0" lean-forward="false" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
               <folding>
                 <marker date="1524463217240" expanded="true" signature="6522:6564" ph="..." />
                 <marker date="1524463217240" expanded="true" signature="6576:6592" ph="..." />
@@ -484,8 +481,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/practice.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3292">
-          <caret line="446" column="0" lean-forward="true" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="0" />
+        <state relative-caret-position="367">
+          <caret line="251" column="0" lean-forward="false" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
           <folding>
             <marker date="1524463217240" expanded="true" signature="6522:6564" ph="..." />
             <marker date="1524463217240" expanded="true" signature="6576:6592" ph="..." />
