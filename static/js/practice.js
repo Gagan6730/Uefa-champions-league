@@ -3,9 +3,9 @@
 //     this.name = name;
 //     this.country = country;
 // }
-var winners=[{name:"Bayern München",country:"Germany",id:0, src:'static/images/0.png'},{name:"Benfica",country:"Portugal",id:1, src:'static/images/1.png'},{name:"Chelsea",country:"England",id:2},
-    {name:"Juventus",country:"Italy",id:3},{name:"Monaco",country:"France",id:4},{name:"Real Madrid",country:"Spain",id:5},{name:"Shakhtar Donetsk",country:"Ukraine",id:6},
-{name:"Spartak Moskva",country:"Russia",id:7}]
+var winners=[{name:"Bayern München",country:"Germany",id:0},{name:"Benfica",country:"Portugal",id:1},{name:"Chelsea",country:"England",id:2},
+    {name:"Juventus",country:"Italy",id:3},{name:"Monaco",country:"France",id:4},{name:"Real Madrid",country:"Spain",id:5},
+    {name:"Shakhtar Donetsk",country:"Ukraine",id:6},{name:"Spartak Moskva",country:"Russia",id:7}]
 
 var teams=[{name:"Anderlecht",country:"Belgium",id:8},{name:"APOEL",country:"Cyprus",id:9},{name:"Atlético Madrid",country:"Spain",id:10},
     {name:"Barcelona",country:"Spain",id:11},{name:"Basel",country:"Switzerland",id:12}, {name:"Beşiktaş",country:"Turkey",id:13},
@@ -15,6 +15,15 @@ var teams=[{name:"Anderlecht",country:"Belgium",id:8},{name:"APOEL",country:"Cyp
 {name:"Sevilla",country:"Spain",id:23}, {name:"Roma",country:"Italy",id:24}, {name:"RB Leipzig",country:"Germany",id:25}, {name:"Qarabağ",country:"Azbekistan",id:26},
 {name:"Porto",country:"Portugal",id:27},{name:"Paris Saint-Germain",country:"France",id:28}, {name:"Olympiacos",country:"Greece",id:29},
 {name:"Maribor",country:"Slovenia",id:30}, {name:"Napoli",country:"Italy",id:31}]
+
+var gr=[[{name:"Bayern München",country:"Germany",id:0},{name:"Olympiacos",country:"Greece",id:29},{name:"Sevilla",country:"Spain",id:23},{name:"CSKA Moskva",country:"Russia",id:16}],
+[{name:"Monaco",country:"France",id:4},{name:"Basel",country:"Switzerland",id:12},{name:"Manchester United",country:"England",id:20},{name:"Sporting CP",country:"Portugal",id:22}],
+[{name:"Chelsea",country:"England",id:2},{name:"Atlético Madrid",country:"Spain",id:10},{name:"Porto",country:"Portugal",id:27},{name:"Roma",country:"Italy",id:24}],
+[{name:"Juventus",country:"Italy",id:3},{name:"Anderlecht",country:"Belgium",id:8},{name:"Barcelona",country:"Spain",id:11},{name:"Beşiktaş",country:"Turkey",id:13}],
+[{name:"Benfica",country:"Portugal",id:1},{name:"Maribor",country:"Slovenia",id:30},{name:"Paris Saint-Germain",country:"France",id:28},{name:"Napoli",country:"Italy",id:31}],
+[{name:"Spartak Moskva",country:"Russia",id:7},{name:"Qarabağ",country:"Azbekistan",id:26},{name:"Liverpool",country:"England",id:18},{name:"Feyenoord",country:"Netherlands",id:17}],
+[{name:"Real Madrid",country:"Spain",id:5},{name:"Manchester City",country:"England",id:19},{name:"APOEL",country:"Cyprus",id:9},{name:"Celtic",country:"Scotland",id:15}],
+[{name:"Shakhtar Donetsk",country:"Ukraine",id:6},{name:"Tottenham Hotspur",country:"England",id:21},{name:"RB Leipzig",country:"Germany",id:25},{name:"Borussia Dortmund",country:"Germany",id:14}]]
 
 var i=8
     // document.write("<p style='color: aliceblue'>"+winners.length+"<\p>")
@@ -154,9 +163,20 @@ if(teamout.length>0)
 //         src.appendChild(img)
 //         };
 
+var f=0
 
-
-
+for(var l=0;l<4;l++)
+{
+	for(j=l+1;j<4;j++)
+	{
+		if(groups[7][l].country===groups[7][j].country)
+		{
+			groups=gr
+            f=1
+			break
+		}
+	}
+}
 
 document.write("<div style='position:absolute; left: 150px; top: 20px;'><p style='color: aliceblue'> "+x[0]+"<\p>" +
     "<div id='x'><p style='color: aliceblue; display: inline'> "+groups[0][0].name+"<\p></div>" +
@@ -419,3 +439,10 @@ document.write("<div style='position:absolute; left: 810px; top: 250px;'><p styl
         img.src = "static/images/"+groups[7][3].id+".png";
         src=document.getElementById("a_3");
         src.insertBefore(img,src.firstChild);
+
+
+        if(f===1)
+        {
+            			document.write("<p style='color: aliceblue; display: inline'>wfghejgkhhkjw<\p>")
+
+        }
