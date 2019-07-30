@@ -4,12 +4,10 @@
     <head>
         <meta charset="UTF-8">
             <title>UEFA Champions League</title>
-{#            <link rel="stylesheet"#}
-{#            type="text/css"#}
-{#            href="static/css/style1.css">#}
+            
         <style>
             .page-bg {
-    background: url(static/images/download.jpeg);
+    background: url(images/download.jpeg);
   -webkit-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px);
@@ -28,8 +26,7 @@
     <div class="page-bg"></div>
     <!--<div id="foo" style="max-width: 10%;-->
     <!--max-height: 10%;" ></div>-->
-    <script type="text/javascript" src="{{
-  url_for('static', filename='js/practice.js') }}">
+    <script type="text/javascript" src="js/practice.js">
         var img = new Image();
         img.src = "static/images/"+groups[l][j].id+".png";
         var src = document.getElementById("x");

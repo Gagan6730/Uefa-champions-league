@@ -234,75 +234,75 @@ document.write("<div style='position:absolute; left: 810px; top: 250px;'><p styl
 
 
         var img = new Image(20, 20);
-        img.src = "static/images/"+groups[0][0].id+".png";
+        img.src = "images/"+groups[0][0].id+".png";
         var src=document.getElementById("x");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[0][1].id+".png";
+        img.src = "images/"+groups[0][1].id+".png";
         src=document.getElementById("x1");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[0][2].id+".png";
+        img.src = "images/"+groups[0][2].id+".png";
         src=document.getElementById("x2");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[0][3].id+".png";
+        img.src = "images/"+groups[0][3].id+".png";
         src=document.getElementById("x3");
         src.insertBefore(img,src.firstChild);
 
 
         ///////////
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[1][0].id+".png";
+        img.src = "images/"+groups[1][0].id+".png";
         src=document.getElementById("y");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[1][1].id+".png";
+        img.src = "images/"+groups[1][1].id+".png";
         src=document.getElementById("y1");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[1][2].id+".png";
+        img.src = "images/"+groups[1][2].id+".png";
         src=document.getElementById("y2")
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[1][3].id+".png";
+        img.src = "images/"+groups[1][3].id+".png";
         src=document.getElementById("y3");
         src.insertBefore(img,src.firstChild);
 
         ////////////////////////
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[2][0].id+".png";
+        img.src = "images/"+groups[2][0].id+".png";
         src=document.getElementById("z");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[2][1].id+".png";
+        img.src = "images/"+groups[2][1].id+".png";
         src=document.getElementById("z1");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[2][2].id+".png";
+        img.src = "images/"+groups[2][2].id+".png";
         src=document.getElementById("z2")
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[2][3].id+".png";
+        img.src = "images/"+groups[2][3].id+".png";
         src=document.getElementById("z3");
         src.insertBefore(img,src.firstChild);
 
@@ -311,25 +311,25 @@ document.write("<div style='position:absolute; left: 810px; top: 250px;'><p styl
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[3][0].id+".png";
+        img.src = "images/"+groups[3][0].id+".png";
         src=document.getElementById("a");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[3][1].id+".png";
+        img.src = "images/"+groups[3][1].id+".png";
         src=document.getElementById("a1");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[3][2].id+".png";
+        img.src = "images/"+groups[3][2].id+".png";
         src=document.getElementById("a2")
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[3][3].id+".png";
+        img.src = "images/"+groups[3][3].id+".png";
         src=document.getElementById("a3");
         src.insertBefore(img,src.firstChild);
 
@@ -341,75 +341,75 @@ document.write("<div style='position:absolute; left: 810px; top: 250px;'><p styl
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[4][0].id+".png";
+        img.src = "images/"+groups[4][0].id+".png";
         src=document.getElementById("x_");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[4][1].id+".png";
+        img.src = "images/"+groups[4][1].id+".png";
         src=document.getElementById("x_1");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[4][2].id+".png";
+        img.src = "images/"+groups[4][2].id+".png";
         src=document.getElementById("x_2");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[4][3].id+".png";
+        img.src = "images/"+groups[4][3].id+".png";
         src=document.getElementById("x_3");
         src.insertBefore(img,src.firstChild);
 
 
         ///////////
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[5][0].id+".png";
+        img.src = "images/"+groups[5][0].id+".png";
         src=document.getElementById("y_");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[5][1].id+".png";
+        img.src = "images/"+groups[5][1].id+".png";
         src=document.getElementById("y_1");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[5][2].id+".png";
+        img.src = "images/"+groups[5][2].id+".png";
         src=document.getElementById("y_2")
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[5][3].id+".png";
+        img.src = "images/"+groups[5][3].id+".png";
         src=document.getElementById("y_3");
         src.insertBefore(img,src.firstChild);
 
         ////////////////////////
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[6][0].id+".png";
+        img.src = "images/"+groups[6][0].id+".png";
         src=document.getElementById("z_");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[6][1].id+".png";
+        img.src = "images/"+groups[6][1].id+".png";
         src=document.getElementById("z_1");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[6][2].id+".png";
+        img.src = "images/"+groups[6][2].id+".png";
         src=document.getElementById("z_2")
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[6][3].id+".png";
+        img.src = "images/"+groups[6][3].id+".png";
         src=document.getElementById("z_3");
         src.insertBefore(img,src.firstChild);
 
@@ -418,31 +418,31 @@ document.write("<div style='position:absolute; left: 810px; top: 250px;'><p styl
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[7][0].id+".png";
+        img.src = "images/"+groups[7][0].id+".png";
         src=document.getElementById("a_");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[7][1].id+".png";
+        img.src = "images/"+groups[7][1].id+".png";
         src=document.getElementById("a_1");
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[7][2].id+".png";
+        img.src = "images/"+groups[7][2].id+".png";
         src=document.getElementById("a_2")
         src.insertBefore(img,src.firstChild);
 
 
         img = new Image(20, 20);
-        img.src = "static/images/"+groups[7][3].id+".png";
+        img.src = "images/"+groups[7][3].id+".png";
         src=document.getElementById("a_3");
         src.insertBefore(img,src.firstChild);
 
 
         if(f===1)
         {
-            			document.write("<p style='color: aliceblue; display: inline'>wfghejgkhhkjw<\p>")
+            			document.write("<p style='color: aliceblue; display: inline'><\p>")
 
         }
